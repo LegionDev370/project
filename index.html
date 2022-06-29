@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main-min.css"/>
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+    <title>Namanganliklar24</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navigation">
+        <div class="nav-logo">NAMANGANLIKLAR24</div>
+        <span id="currency-sec">
+          <img src="./images/currency.png" alt="currency" />
+        </span>
+        <div class="search-bar">
+          <input type="text" placeholder="Nima qidiramiz?" />
+        </div>
+        <span class="lups">
+          <img src="./images/mdi_magnify.svg" alt="magnify" />
+        </span>
+        <span class="language">
+          <img src="./images/cif_ru.png" id="icon" alt="ru" />
+          <span>РУ</span>
+        </span>
+        <button type="button" class="btn">
+          <span>
+            <img src="./images/cib_telegram.svg" alt="telegram" />
+          </span>
+          <span>Подписатся</span>
+        </button>
+      </div>
+      <div class="news-bar">
+        <div class="nav-group">
+          <span class="news-item">Узбекистана</span>
+          <span class="news-item">Мир</span>
+          <span class="news-item">Экономика</span>
+          <span class="news-item">Политика</span>
+          <span class="news-item">Общество</span>
+          <span class="news-item">Технологии</span>
+          <span class="news-item">Спорт</span>
+          <span class="news-item">Культура</span>
+          <span class="news-item">Происшествия</span>
+          <span class="news-item">Туризм</span>
+        </div>
+      </div>
+      <div class="section-banner">
+        <img src="./images/Rectangle3.png" alt="frame" />
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h2>Напишите нам</h2>
+        <div class="contact-section">
+          <div class="contact-left">
+            <form action="http://127.0.0.1:5500/index.html" method="post">
+              <input
+                type="text"
+                placeholder="Имя"
+                aria-label="name"
+                name="name"
+                required
+              />
+              <input
+                type="email"
+                placeholder="Электронная почта"
+                aria-label="name"
+                name="email"
+                required
+              />
+              <input
+                type="tel"
+                placeholder="Номер телефона"
+                aria-label="name"
+                name="telephone"
+                required
+              />
+              <input
+                type="text"
+                placeholder="Тема"
+                id="send"
+                aria-label="name"
+                name="text"
+                required
+              />
+              <textarea
+                name="text"
+                cols="30"
+                rows="10"
+                placeholder="Текст"
+                required
+              ></textarea>
+              <div class="upload-btn">
+                <label for="upload-photo" class="label_toggle"
+                  >Прикрепить файл <img src="./images/Frame.svg" alt="frame"
+                /></label>
+                <input type="file" name="photo" id="upload-photo" />
+              </div>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                aria-label="password"
+                placeholder="Код"
+                required
+              />
+              <label for="kod" class="label_kod">4 k 7 Z a</label>
+              <br />
+              <label for="send" class="btn-submit">Отправить</label>
+            </form>
+          </div>
+          <div class="contact-right">
+            <div class="shadow">
+              <div class="box">
+                <span>
+                  <a href="#"
+                    ><img src="./images/NAMANGANLIKLAR24.png" alt="namangan"
+                  /></a>
+                </span>
+                <div class="contact-us">
+                  <div class="left-section">
+                    <span>Электронная почта</span>
+                    <span>Социальные сети</span>
+                    <span>Телеграм канал</span>
+                    <span>Мобильная приложение</span>
+                  </div>
+                  <div class="right-section">
+                    <span id="span-text">info@namanganliklar24.uz</span>
+                    <div class="set-icons">
+                      <span
+                        ><img src="./images/facebook.svg" alt="facebook"
+                      /></span>
+                      <span
+                        ><img src="./images/twitter.svg" alt="twitter"
+                      /></span>
+                      <span
+                        ><img src="./images/odnoklasnik.svg" alt="odno"
+                      /></span>
+                    </div>
+                    <button type="button" id="btn-join">
+                      <img src="./images/cib_telegram.svg" alt="telegram" />
+                      <span>Подписатся</span>
+                    </button>
+                    <div class="block">
+                      <span
+                        ><img
+                          src="./images/googlePlay-w1.png"
+                          alt="google-play"
+                      /></span>
+                      <span
+                        ><img
+                          src="./images/appleStore-w1.png"
+                          alt="apple-store"
+                      /></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-main-content">
+          <div class="footer-logo">
+            <span id="footer-title">NAMANGANLIKLAR24</span>
+          </div>
+          <span id="footer-mintitle"
+            >Подписывайтесь на наш канал в Telegram и будьте всегда вкурсе самых
+            последних новостей:</span
+          >
+          <button type="button" class="btn-footer">
+            <span id="img-footer"
+              ><img src="./images/footer-telegram.svg" alt="telegram" /></span
+            ><span id="footer-text">Подписатся</span>
+          </button>
+        </div>
+        <div class="section">
+          <div class="content-left">
+            <span id="section-title">
+              О сайте Воспроизводство, копирование, тиражирование,
+              распространение и иное использование информации с сайта
+              «NAMANGANLIKLAR24.UZ» возможно только с предварительного
+              письменного разрешения редакции.
+            </span>
+          </div>
+          <div class="center-section">
+            <p id="section-mintitle">
+              Информация о сайте Напишите нам Реклама Прислать новость
+            </p>
+          </div>
+          <div class="right-section">
+            <p id="section-mintitle01">
+              Использование материалов<br> Темы дня<br> Наша команда
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
